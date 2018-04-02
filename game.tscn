@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://maingui.tscn" type="PackedScene" id=1]
+
+[node name="Node" type="Node"]
+
+_sections_unfolded = [ "Material", "Transform", "Visibility", "Z Index" ]
+
+[node name="maingui" parent="." index="0" instance=ExtResource( 1 )]
+
+
