@@ -1,7 +1,6 @@
 using Godot;
 using System;
-
-public class splash : Control
+public class splash : Node
 {
     // Member variables here, example:
     // private int a = 2;
@@ -21,7 +20,7 @@ public class splash : Control
         GD.Print("HI");
         //var nextScene = G
         
-		//((global)GetNode("/root/global")).GoToSchene("res://game.tscn", "level-01");
+		((GlobalFuncs)GetNode("/root/GlobalFuncs")).GoToSchene("res://game.tscn", "level-01");
         
         
     }

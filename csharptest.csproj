@@ -49,6 +49,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GlobalFuncs.cs" />
     <Compile Include="maingui.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="splash.cs" />
